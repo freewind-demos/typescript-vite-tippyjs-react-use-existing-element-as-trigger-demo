@@ -5,5 +5,5 @@ import { Hello } from './Hello'
 
 ReactDOM.render(
   <Hello/>,
-  document.body
+  document.querySelector('#root')
 )
